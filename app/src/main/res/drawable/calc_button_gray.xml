@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- حالة الضغط -->
+
     <item android:state_pressed="true">
         <shape android:shape="rectangle">
             <corners android:radius="44dp"/>
             <solid android:color="#8E8E93"/>
         </shape>
     </item>
-    <!-- الحالة العادية -->
-    <item>
+
         <shape android:shape="rectangle">
             <corners android:radius="44dp"/>
             <solid android:color="#636366"/>
