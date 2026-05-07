@@ -134,7 +134,7 @@ public void onOpratorClick(View view) {
         String rhs = texView.getText().toString();
 
         if (lhs.isEmpty() || savedOpreator.isEmpty() || rhs.isEmpty()) {
-            // لا تقم بأي عملية إذا ما فيش معطيات كافية
+
             return;
         }
 
